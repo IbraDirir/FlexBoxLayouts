@@ -5,7 +5,13 @@
 .container{
 display:flex;
 flex-wrap: wrap;
-justify-content: flex-end;
-justify-content: space-between;
-}
+justify-content: space-around;
 
+}
+.item-2{
+    margin-right:auto;
+    order: 1;
+}
+.item-6{
+    order: -1;
+}
