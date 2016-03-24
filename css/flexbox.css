@@ -15,3 +15,6 @@ justify-content: space-around;
 .item-6{
     order: -1;
 }
+.item-3{
+    order: 2;
+}
