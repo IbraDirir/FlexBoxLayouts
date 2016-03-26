@@ -5,14 +5,25 @@
 .container{
 display:flex;
 flex-wrap: wrap;
-height: 300px;
-
+height: 450px;
+/*align center centers the flex-items*/
+align-items: center;
 }
 
+.item-1{
+/*align-self, aligns items individually*/
+align-self: flex-end;
+}
+.item-4{
+align-self: flex-start;
+}
+
+/*
 .item{
 flex-basis: 200px;
 flex-grow: 1;
 }
+*/
 
 .item{
 /*short hand for flex grow and flex-basis property*/
